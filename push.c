@@ -7,7 +7,7 @@
 */
 void f_push(stack_t **head, unsigned int counter)
 {
-	int n, j = 0, flg = 0;
+	int nbr, j = 0, flg = 0;
 
 	if (bus.arg)
 	{

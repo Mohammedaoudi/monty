@@ -36,7 +36,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 	bus.arg = strtok(NULL, " \n\t");
 	while (opsst[id].opcode && orpd)
 	{
-		if (strcmp(op, opsst[id].opcode) == 0)
+		if (strcmp(orpd, opsst[id].opcode) == 0)
 		{	opsst[id].f(stack, counter);
 			return (0);
 		}
